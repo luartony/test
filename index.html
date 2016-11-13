@@ -22,8 +22,8 @@
 				<!-- Header -->
 					<header id="header" class="alt">
 						<span class="logo"><img src="images/logo.svg" alt="" /></span>
-						<h1>Simulador de test</h1>
-						<h1>Evaluación de Depresión Infantil </h1>
+						<h2>Califcador de test de Evaluación</h2>
+						<h2>Depresión Infantil Kovacs </h2>
 						
 					</header>
 
@@ -45,11 +45,58 @@
 								<div class="spotlight">
 									<div class="content">
 										<header class="major">
-											<h2>Ipsum sed adipiscing</h2>
+											<h2>Ingrese datos del alumno</h2>
 										</header>
-										<p>Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna
-										adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus.
-										Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.</p>
+										<!-- Form -->
+										<form method="post" action="#">
+											<div class="row uniform">
+												<div class="6u 12u$(xsmall)">
+													<input type="text" name="demo-name" id="demo-name" value="" placeholder="Nombres" />
+												</div>
+												<div class="6u$ 12u$(xsmall)">
+													<input type="email" name="demo-email" id="demo-email" value="" placeholder="Apellidos" />
+												</div>
+												<div class="6u">
+													<div class="select-wrapper">
+														<select name="demo-category" id="demo-category">
+															<option value="">- Edad -</option>
+															<option value="1">7 años</option>
+															<option value="1">8 años</option>
+															<option value="1">9 años</option>
+															<option value="1">10 años</option>
+															<option value="1">11 años</option>
+															<option value="1">12 años</option>
+															<option value="1">13 años</option>
+															<option value="1">14 años</option>
+															<option value="1">15 años</option>
+														</select>
+													</div>
+												</div>
+												<div class="3u 6u$(small)">
+													<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+													<label for="demo-priority-low">Varón</label>
+												</div>
+												<div class="3u$ 6u$(small)">
+													<input type="radio" id="demo-priority-normal" name="demo-priority">
+													<label for="demo-priority-normal">Mujer</label>
+												</div>
+												<div class="6u 12u$(xsmall)">
+													<input type="text" name="demo-name" id="demo-name" value="" placeholder="Centro Educativo" />
+												</div>
+												<div class="6u$ 12u$(xsmall)">
+													<input type="email" name="demo-email" id="demo-email" value="" placeholder="Examinador" />
+												</div>
+												<div class="12u$">
+													<textarea name="demo-message" id="demo-message" placeholder="Ingrese un comentario..." rows="6"></textarea>
+												</div>
+												<div class="12u$">
+													<ul class="actions">
+														<li><input type="submit" value="Guardar" class="special" /></li>
+														<li><input type="reset" value="Limpiar" /></li>
+													</ul>
+												</div>
+											</div>
+										</form>
 										<ul class="actions">
 											<li><a href="generic.html" class="button">Learn More</a></li>
 										</ul>
