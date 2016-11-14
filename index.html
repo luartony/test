@@ -644,14 +644,12 @@
   				$("#preguntas").click(function(){
   					valor =  $(".slide-activo").attr("num").valueOf();
   					resp = $("input:radio[name=pregunta"+valor+"]:checked").val();
-  					console.log(resp);
   					if(resp){
   						$("#next-slide").removeAttr( "disabled","true" );
   					} 					
   				});
   				$("#next-slide").click(function(){
   					valor =  $(".slide-activo").attr("num").valueOf();
-  					console.log($("input:radio[name=pregunta"+valor+"]:checked").val());
   					resp = $("input:radio[name=pregunta"+valor+"]:checked").val();
   					if(resp){
   						$("#next-slide").attr("disabled","true");
